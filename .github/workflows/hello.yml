@@ -1,6 +1,7 @@
 name: hello world2
 on: [push]
 jobs:
+  run-name: HelloWorld2
   build:
     runs-on: ubuntu-latest
     steps:
