@@ -1,4 +1,4 @@
-name: hello world
+name: hello world 3
 on: 
   push:
     branches:
@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello World Actions
-        run: echo "Hello Worldd"
+        run: echo "Hello World 3"
